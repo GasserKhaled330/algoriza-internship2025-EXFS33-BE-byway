@@ -1,0 +1,155 @@
+[
+  {
+    "CourseId": 1,
+    "Name": "HTML & CSS Basics",
+    "LecturesCount": 12,
+    "DurationInHours": 24
+  },
+  {
+    "CourseId": 1,
+    "Name": "JavaScript Fundamentals",
+    "LecturesCount": 15,
+    "DurationInHours": 30
+  },
+  {
+    "CourseId":1,
+    "Name": "Backend with Node.js",
+    "LecturesCount": 18,
+    "DurationInHours": 36
+  },
+
+  {
+    "CourseId": 2,
+    "Name": "Photoshop Essentials",
+    "LecturesCount": 10,
+    "DurationInHours": 20
+  },
+  {
+    "CourseId": 2,
+    "Name": "Illustrator for Beginners",
+    "LecturesCount": 12,
+    "DurationInHours": 24
+  },
+
+  {
+    "CourseId": 3,
+    "Name": "Node.js API Development",
+    "LecturesCount": 14,
+    "DurationInHours": 28
+  },
+  {
+    "CourseId": 3,
+    "Name": "Database Integration",
+    "LecturesCount": 16,
+    "DurationInHours": 32
+  },
+  {
+    "CourseId": 3,
+    "Name": "API Security Best Practices",
+    "LecturesCount": 10,
+    "DurationInHours": 20
+  },
+
+  {
+    "CourseId": 4,
+    "Name": "React Fundamentals",
+    "LecturesCount": 12,
+    "DurationInHours": 24
+  },
+  {
+    "CourseId": 4,
+    "Name": "Redux State Management",
+    "LecturesCount": 14,
+    "DurationInHours": 28
+  },
+
+  {
+    "CourseId": 5,
+    "Name": "HTML & CSS Advanced",
+    "LecturesCount": 15,
+    "DurationInHours": 30
+  },
+
+  {
+    "CourseId": 5,
+    "Name": "Advanced Photoshop Techniques",
+    "LecturesCount": 12,
+    "DurationInHours": 24
+  },
+  {
+    "CourseId": 6,
+    "Name": "Branding & Visual Identity",
+    "LecturesCount": 10,
+    "DurationInHours": 20
+  },
+  {
+    "CourseId": 6,
+    "Name": "Portfolio Design",
+    "LecturesCount": 8,
+    "DurationInHours": 16
+  },
+
+  {
+    "CourseId": 7,
+    "Name": "REST API Development",
+    "LecturesCount": 14,
+    "DurationInHours": 28
+  },
+  {
+    "CourseId": 7,
+    "Name": "Database Optimization",
+    "LecturesCount": 12,
+    "DurationInHours": 24
+  },
+
+  {
+    "CourseId": 8,
+    "Name": "React Hooks Deep Dive",
+    "LecturesCount": 10,
+    "DurationInHours": 20
+  },
+  {
+    "CourseId": 8,
+    "Name": "Advanced Component Patterns",
+    "LecturesCount": 12,
+    "DurationInHours": 24
+  },
+  {
+    "CourseId": 8,
+    "Name": "Performance Optimization",
+    "LecturesCount": 8,
+    "DurationInHours": 16
+  },
+
+  {
+    "CourseId": 9,
+    "Name": "HTML5 & CSS3 Projects",
+    "LecturesCount": 14,
+    "DurationInHours": 28
+  },
+  {
+    "CourseId": 9,
+    "Name": "JavaScript DOM Manipulation",
+    "LecturesCount": 12,
+    "DurationInHours": 24
+  },
+
+  {
+    "CourseId": 10,
+    "Name": "Logo Design Principles",
+    "LecturesCount": 10,
+    "DurationInHours": 20
+  },
+  {
+    "CourseId": 10,
+    "Name": "Typography in Design",
+    "LecturesCount": 8,
+    "DurationInHours": 16
+  },
+  {
+    "CourseId": 10,
+    "Name": "Color Theory",
+    "LecturesCount": 6,
+    "DurationInHours": 12
+  }
+]

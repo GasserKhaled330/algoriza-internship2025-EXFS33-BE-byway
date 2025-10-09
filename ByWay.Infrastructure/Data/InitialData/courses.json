@@ -1,0 +1,122 @@
+[
+  {
+    "Name": "Fullstack Bootcamp 1",
+    "CategoryId": 1,
+    "InstructorId": 1,
+    "Level": 1,
+    "Cost": 499,
+    "TotalHours": 120,
+    "Description": "Learn HTML, CSS, JS, and backend basics",
+    "Certification": "Yes",
+    "ImagePath": "/images/courses/c1.webp",
+    "Rate": 4.5
+  },
+  {
+    "Name": "Graphic Design Mastery 1",
+    "CategoryId": 1,
+    "InstructorId": 4,
+    "Level": 5,
+    "Cost": 299,
+    "TotalHours": 50,
+    "Description": "Learn Photoshop, Illustrator, and design theory",
+    "Certification": "Yes",
+    "ImagePath": "/images/courses/c2.jpg",
+    "Rate": 4.5
+  },
+  {
+    "Name": "Backend API Development 1",
+    "CategoryId": 3,
+    "InstructorId": 2,
+    "Level": 2,
+    "Cost": 399,
+    "TotalHours": 80,
+    "Description": "Build REST APIs with Node.js and databases",
+    "Certification": "Yes",
+    "ImagePath": "/images/courses/c3.jpg",
+    "Rate": 4
+  },
+  {
+    "Name": "Frontend React Mastery 1",
+    "CategoryId": 4,
+    "InstructorId": 3,
+    "Level": 3,
+    "Cost": 349,
+    "TotalHours": 70,
+    "Description": "Create dynamic UIs with React and Redux",
+    "Certification": "Yes",
+    "ImagePath": "/images/courses/c4.jpg",
+    "Rate": 4
+  },
+  {
+    "Name": "Fullstack Bootcamp 2",
+    "CategoryId": 1,
+    "InstructorId": 5,
+    "Level": 1,
+    "Cost": 499,
+    "TotalHours": 120,
+    "Description": "Learn HTML, CSS, JS, and backend basics",
+    "Certification": "Yes",
+    "ImagePath": "/images/courses/c5.jpg",
+    "Rate": 4
+  },
+  {
+    "Name": "Graphic Design Mastery 2",
+    "CategoryId": 2,
+    "InstructorId": 8,
+    "Level": 5,
+    "Cost": 299,
+    "TotalHours": 50,
+    "Description": "Learn Photoshop, Illustrator, and design theory",
+    "Certification": "Yes",
+    "ImagePath": "/images/courses/c6.jpg",
+    "Rate": 3
+  },
+  {
+    "Name": "Backend API Development 2",
+    "CategoryId": 3,
+    "InstructorId": 6,
+    "Level": 2,
+    "Cost": 399,
+    "TotalHours": 80,
+    "Description": "Build REST APIs with Node.js and databases",
+    "Certification": "Yes",
+    "ImagePath": "/images/courses/c7.jpg",
+    "Rate": 3
+  },
+  {
+    "Name": "Frontend React Mastery 2",
+    "CategoryId": 4,
+    "InstructorId": 7,
+    "Level": 4,
+    "Cost": 349,
+    "TotalHours": 70,
+    "Description": "Create dynamic UIs with React and Redux",
+    "Certification": "Yes",
+    "ImagePath": "/images/courses/c8.jpg",
+    "Rate": 3.5
+  },
+  {
+    "Name": "Fullstack Bootcamp 3",
+    "CategoryId": 4,
+    "InstructorId": 10,
+    "Level": 4,
+    "Cost": 499,
+    "TotalHours": 120,
+    "Description": "Learn HTML, CSS, JS, and backend basics",
+    "Certification": "Yes",
+    "ImagePath": "/images/courses/c9.jpg",
+    "Rate": 5
+  },
+  {
+    "Name": "Graphic Design Mastery 3",
+    "CategoryId": 2,
+    "InstructorId": 9,
+    "Level": 4,
+    "Cost": 299,
+    "TotalHours": 50,
+    "Description": "Learn Photoshop, Illustrator, and design theory",
+    "Certification": "Yes",
+    "ImagePath": "/images/courses/c10.jpg",
+    "Rate": 5
+  }
+]

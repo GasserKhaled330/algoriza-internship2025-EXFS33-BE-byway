@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "Fullstack Development",
+    "Description": "Learn both frontend and backend technologies to build complete applications",
+    "ImagePath": "/images/categories/fullstack.webp"
+  },
+  {
+    "Name": "Graphic Design",
+    "Description": "Master design principles",
+    "ImagePath": "/images/categories/graphicdesign.webp"
+  },
+  {
+    "Name": "Backend Development",
+    "Description": "Focus on server-side programming",
+    "ImagePath": "/images/categories/backend.webp"
+  },
+  {
+    "Name": "Frontend Development",
+    "Description": "Build engaging user interfaces with modern frameworks",
+    "ImagePath": "/images/categories/frontend.webp"
+  }
+]

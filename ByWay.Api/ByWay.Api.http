@@ -1,0 +1,6 @@
+@ByWay.Api_HostAddress = http://localhost:5007
+
+GET {{ByWay.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

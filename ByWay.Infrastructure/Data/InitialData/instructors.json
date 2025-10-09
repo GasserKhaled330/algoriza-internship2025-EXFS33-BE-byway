@@ -1,0 +1,72 @@
+[
+	{
+		"FullName": "Alex Johnson",
+		"JobTitle": 1,
+		"Bio": "10+ years in fullstack web development",
+		"ImagePath": "images/instructors/i1.webp",
+		"Rate": 4.5
+	},
+	{
+		"FullName": "Priya Sharma",
+		"JobTitle": 3,
+		"Bio": "Expert in server-side architecture and APIs",
+		"ImagePath": "images/instructors/i2.webp",
+		"Rate": 5
+	},
+	{
+		"FullName": "Marco Rossi",
+		"JobTitle": 2,
+		"Bio": "Specialist in React, Vue, and UI performance",
+		"ImagePath": "images/instructors/i3.webp",
+		"Rate": 4.5
+	},
+	{
+		"FullName": "Sarah Lee",
+		"JobTitle": 4,
+		"Bio": "Passionate about user-centered design",
+		"ImagePath": "images/instructors/i4.webp",
+		"Rate": 3.5
+	},
+	{
+		"FullName": "David Kim",
+		"JobTitle": 1,
+		"Bio": "Fullstack engineer with cloud expertise",
+		"ImagePath": "images/instructors/i5.webp",
+		"Rate": 3
+	},
+	{
+		"FullName": "Emma Wilson",
+		"JobTitle": 3,
+		"Bio": "Database and API optimization specialist",
+		"ImagePath": "images/instructors/i6.webp",
+		"Rate": 3.5
+	},
+	{
+		"FullName": "James Carter",
+		"JobTitle": 2,
+		"Bio": "Expert in responsive design and accessibility",
+		"ImagePath": "images/instructors/i7.webp",
+		"Rate": 5
+	},
+	{
+		"FullName": "Linda Martinez",
+		"JobTitle": 4,
+		"Bio": "Design systems and prototyping expert",
+		"ImagePath": "images/instructors/i8.webp",
+		"Rate": 4.5
+	},
+	{
+		"FullName": "Robert Brown",
+		"JobTitle": 1,
+		"Bio": "Specialist in MERN stack",
+		"ImagePath": "images/instructors/i9.webp",
+		"Rate": 4.5
+	},
+	{
+		"FullName": "Olivia Taylor",
+		"JobTitle": 3,
+		"Bio": "Cloud-native backend systems engineer",
+		"ImagePath": "images/instructors/i10.webp",
+		"Rate": 5
+	}
+]

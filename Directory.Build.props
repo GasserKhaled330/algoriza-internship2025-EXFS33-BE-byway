@@ -1,0 +1,20 @@
+<Project>
+	<PropertyGroup>
+		<AnalysisLevel>latest</AnalysisLevel>
+		<AnalysisMode>All</AnalysisMode>
+		<TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+		<CodeAnalysisTreatWarningsAsErrors>flase</CodeAnalysisTreatWarningsAsErrors>
+		<EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+        <NoWarn>CA2007</NoWarn>
+        <NoWarn>RMG020</NoWarn>
+        <NoWarn>CA2227</NoWarn>
+	</PropertyGroup>
+<!--	<ItemGroup>-->
+<!--		<PackageReference-->
+<!--		Include="SonarAnalyzer.CSharp"-->
+<!--		Version="10.15.0.120848"-->
+<!--		PrivateAssets="all"-->
+<!--		Condition="$(MSBuildProjectExtension) == '.csproj'"-->
+<!--		/>-->
+<!--	</ItemGroup>-->
+</Project>

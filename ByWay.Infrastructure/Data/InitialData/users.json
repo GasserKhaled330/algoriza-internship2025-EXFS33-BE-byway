@@ -1,0 +1,26 @@
+[
+  {
+    "firstName": "gasser",
+    "lastName": "khaled",
+    "email": "admin@byway.com",
+    "password": "Admin@123",
+    "userName": "gasser_khaled",
+    "role": "Admin"
+  },
+  {
+    "firstName": "Amr",
+    "lastName": "Muhammad",
+    "email": "Amr.Muhammad@byway.com",
+    "password": "Pass@123",
+    "userName": "amr_muhammad",
+    "role": "User"
+  },
+  {
+    "firstName": "aya",
+    "lastName": "yasser",
+    "email": "aya.yasser@byway.com",
+    "password": "Pass@123",
+    "userName": "aya_yasser",
+    "role": "User"
+  }
+]
