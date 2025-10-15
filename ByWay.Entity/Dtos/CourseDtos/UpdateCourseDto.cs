@@ -20,5 +20,5 @@ public record UpdateCourseDto(
     IFormFile? Image,
     int? InstructorId,
     int? CategoryId,
-    ICollection<CourseContentDto>? Contents
+    List<CourseContentDto>? Contents
 );

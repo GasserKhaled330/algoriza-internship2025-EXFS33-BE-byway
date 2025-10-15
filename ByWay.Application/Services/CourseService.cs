@@ -127,13 +127,6 @@ public class CourseService : ICourseService
 
     if (updatedCourseDto.Contents is not null)
     {
-      // course.Contents = updatedCourse.Contents.Select(content => new CourseContent
-      // {
-      //     Name = content.Name,
-      //     LecturesCount = content.LecturesCount,
-      //     DurationInHours = content.DurationInHours
-      // }).ToList();
-
       var updatedContentsMap = updatedCourseDto.Contents
           .ToDictionary(dto => dto.Id, dto => dto);
 

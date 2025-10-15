@@ -112,7 +112,7 @@ namespace ByWay.Api.Controllers
 
     [HttpGet("count")]
     [ProducesResponseType(StatusCodes.Status200OK)]
-    public async Task<ActionResult<int>> GetCoursesCount()
+    public async Task<ActionResult<int>> GetInstructorsCount()
     {
       int count = await _instructorService.GetInstructorsCountAsync();
       return Ok(count);

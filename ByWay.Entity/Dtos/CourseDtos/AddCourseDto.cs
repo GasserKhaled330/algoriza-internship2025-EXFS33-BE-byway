@@ -25,5 +25,5 @@ public record AddCourseDto(
     [Required] int InstructorId,
     [Required] int CategoryId,
     [Required(ErrorMessage = "Enter at least one Course Content")]
-    IEnumerable<CourseContentDto> Contents
+    List<CourseContentDto> Contents
 );
