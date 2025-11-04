@@ -9,10 +9,11 @@ namespace ByWay.Api.Controllers;
 public class AuthController : ControllerBase
 {
   private readonly IAuthService _authService;
-
-  public AuthController(IAuthService authService)
+  private readonly IEmailService _emailService;
+  public AuthController(IAuthService authService, IEmailService emailService)
   {
     _authService = authService;
+    _emailService = emailService;
   }
 
   [HttpPost("register")]
@@ -25,13 +26,18 @@ public class AuthController : ControllerBase
     {
       return BadRequest(ModelState);
     }
-
     var result = await _authService.RegisterAsync(model);
     if (!result.IsAuthenticated)
     {
       return BadRequest(result.Message);
     }
+    var message = $"""
+      Welcome aboard, {result.UserName}!🎉.
 
+      🎓 learning journey starts here, Let's grow your skills together.
+      """;
+    var subject = "User registeration";
+    await _emailService.SendEmailAsync(result.UserName, result.Email, subject, message);
     return Ok(result);
   }
 

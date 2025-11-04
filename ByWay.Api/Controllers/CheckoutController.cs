@@ -1,4 +1,4 @@
-using ByWay.Application.Exceptions;
+﻿using ByWay.Application.Exceptions;
 using ByWay.Domain.Enums;
 using ByWay.Domain.Interfaces.Service;
 using Microsoft.AspNetCore.Authorization;
@@ -15,9 +15,11 @@ namespace ByWay.Api.Controllers
   {
     private readonly ICheckoutService _checkoutService;
     private readonly ProblemDetailsFactory _problemDetailsFactory;
-    public CheckoutController(ICheckoutService checkoutService, ProblemDetailsFactory problemDetailsFactory)
+    private readonly IEmailService _emailService;
+    public CheckoutController(ICheckoutService checkoutService, IEmailService emailService, ProblemDetailsFactory problemDetailsFactory)
     {
       _checkoutService = checkoutService;
+      _emailService = emailService;
       _problemDetailsFactory = problemDetailsFactory;
     }
 
@@ -27,9 +29,18 @@ namespace ByWay.Api.Controllers
     public async Task<IActionResult> CompleteCheckout()
     {
       var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+      var userName = User.FindFirstValue(ClaimTypes.Name);
+      var email = User.FindFirstValue(ClaimTypes.Email);
       try
       {
+        var message = """
+          Thank you for your purchase!
+
+          🎉 Your courses are now available in your dashboard. Best of luck on your learning journey.
+          """;
+        var subject = "Checkout confirmation";
         await _checkoutService.ProcessCheckOutAsync(userId);
+        await _emailService.SendEmailAsync(userName, email, subject, message);
         return Created();
       }
       catch (CheckoutValidationException ex)

@@ -47,6 +47,7 @@ namespace ByWay.Api.Startup
       builder.Services.AddScoped<ICartService, CartService>();
       builder.Services.AddScoped<ICheckoutService, CheckoutService>();
       builder.Services.AddScoped<IImageService, ImageService>();
+      builder.Services.AddScoped<IEmailService, EmailService>();
 
       builder.Services.AddSingleton<InstructorMapper>();
       builder.Services.AddSingleton<CategoryMapper>();
