@@ -10,7 +10,7 @@ namespace ByWay.Application.Services;
 
 public class InstructorService : IInstructorService
 {
-  private const string InstructorImagesFolder = "images/courses/";
+  private const string InstructorImagesFolder = "images/instructors/";
   private readonly IUnitOfWork _unitOfWork;
   private readonly IImageService _imageService;
 
